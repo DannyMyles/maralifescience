@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+  .navbar__logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar__menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar__menuItem {
+    cursor: pointer;
+  }
+  
+  .navbar__menuItem.active {
+    font-weight: bold;
+  }
+  

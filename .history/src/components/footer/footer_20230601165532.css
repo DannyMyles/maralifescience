@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;
+    background: linear-gradient(to right, #366030, #6B9C21);
+    margin-bottom: .5rem;
+  }
+  
+  .footer h3 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .footer_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-contact {
+    text-align: left;
+    padding:1rem 3rem;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 5px;
+  }
+  ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .form_container_main{
+    display: flex;
+    
+  }

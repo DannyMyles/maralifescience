@@ -1,0 +1,150 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;
+    background: linear-gradient(to right, #366030, #6B9C21);
+    margin-bottom: .5rem;
+  }
+  
+  .footer h3 {
+    /* margin-bottom: 10px; */
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  /* .footer-form {
+    border: 1px solid rgb(231, 223, 223);
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    color: black;
+    padding: 1rem;
+  } */
+  
+  /* .footer_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .footer_main input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(68, 68, 68);
+  } */
+  .footer_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-contact {
+    text-align: left;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 5px;
+  }
+  
+  /* form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  } */
+  
+  /* .footer-form input,
+  .footer-form textarea {
+    padding: 10px; 
+    margin-bottom: 10px;
+  } */
+  
+  /* .footer-form button {
+    background-color: #868686;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    /* width: 50%; */
+  
+  ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 20rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    border: 1px solid red;
+    gap: 1rem;
+  }
+  
+  .form_container_left{
+    /* border: 1px solid red; */
+    /* padding: 2rem; */
+  }
+  .form_container_right{
+    /* padding: 1rem 3rem; */
+
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .textarea-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+    border-bottom: 1px solid rgb(28, 28, 28);
+    size: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+  
+  
+
+  @media (min-width: 768px) {
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .footer-contact {
+      margin-right: 20px;
+    }
+  
+    .footer-form {
+      margin-top: 0;
+    }
+  }
+  

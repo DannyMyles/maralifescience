@@ -1,0 +1,9 @@
+.home_container {
+  width: 100%;
+  height: 110vh;
+  background-image: url("/assets/bg.jpg");
+  background-image: url("w3css.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

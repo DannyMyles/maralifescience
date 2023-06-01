@@ -1,0 +1,146 @@
+.home_container {
+  background-image: url("/assets/mara.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5rem;
+  padding-left: p-2rem;
+  background-size: 100%;
+}
+.home_content {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 3rem 3rem 8rem;
+  gap: 0.2rem;
+}
+.home_content h1 {
+  font-size: 4rem;
+  color: rgb(54, 96, 48);
+  margin-bottom: 1rem;
+}
+.home_content p {
+  font-size: 1.2rem;
+}
+.home_content button {
+  display: flex;
+  align-items: center;
+  padding: 1rem .9rem 1rem 2rem;
+  border-radius: 2rem;
+  gap: 1rem;
+  font-size: 1rem;
+  border: none;
+  background: linear-gradient(to right, #366030, #6b9c21);
+  margin-top: 2rem;
+  color:rgb(255, 255, 255);
+}
+.button_cont {
+  gap: 1rem;
+}
+.images {
+  display: flex;
+  align-items: baseline;
+  background: none;
+  margin-top: 3rem;
+  
+}
+.images img{
+  width: 8rem;
+
+}
+.main_image_display{
+  background-color: #ffffff;
+  padding: .5rem 5rem .2rem 5rem;
+  
+}
+.our_brands{
+  font-size: 2rem;
+  padding : 1.5rem;
+}
+.main_hr {
+  border: 2px solid rgb(56, 56, 56);
+}
+.icons_desc{
+  color: rgb(255, 255, 255);
+  background-color: #6b9c21;
+}
+.container {
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 1rem;
+    margin-top: 0;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 10px;
+  }
+  .column-33 img{
+    width: 40rem;
+    height: 27em;
+  }
+  .product_description{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0 1rem 0;
+  }
+  .description  p{
+    padding: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .large-font {
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 .5rem 0;
+    color: rgb(2, 84, 2);
+    font-weight: 600;
+  }
+  .large-font_def{
+    padding-left: 2rem;
+  }
+  
+  .xlarge-font {
+    font-size: 64px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    color:rgb(255, 255, 255);
+    padding: .5rem .5rem .5rem 1.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #366030, #6b9c21);
+    border-radius: 2rem;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
