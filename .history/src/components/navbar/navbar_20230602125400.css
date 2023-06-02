@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 7rem;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.navbar__logo {
+  font-weight: 800;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.navbar__logo img {
+  width: 4rem;
+  height: 4rem;
+}
+.navbar__menu {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+li .phone_icon{
+  border:1px solid rgb(137, 137, 137);
+  fill: white;
+  border-radius:2rem;
+  padding:.2rem;
+  background-color: green;
+}
+.navbar__menuItem {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar__menuItem:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 380px) and (max-width: 980px) {
+  .navbar {
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .navbar__logo h1 {
+    display: none;
+  }
+  .navbar__logo img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .navbar__menu {
+    gap: 0.5rem;
+  }
+  .navbar__menuItem {
+    font-size: 1rem;
+  }
+}
