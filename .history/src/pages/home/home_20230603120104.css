@@ -180,17 +180,18 @@ img {
   }
   .home_content {
     display: flex;
-    padding: 1rem;
     gap: 0rem;
+
   }
   .home_content h1 {
     font-size: 2.5rem;
+    font-weight: 900;
   }
   .main_image_display {
-    padding: 0rem;
+    background-color: #ffffff;
+    padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
   }
   .container {
@@ -201,7 +202,7 @@ img {
   .row {
     display: flex;
     flex-direction: column;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
     padding: 1rem 2rem;
   }
   .column-33 img {
@@ -210,49 +211,16 @@ img {
   }
   .xlarge-font {
     font-size: 24px;
+    /* padding-right: 10rem; */
     gap: 1rem;
-  }
-  .large-font_def {
-    padding-left: 2rem;
-  }
-  .product_description {
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 100vw;
-    font-size: 0.9rem;
-    margin: 0;
-    padding: 0;
-  }
-  .description {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-width: 100vw;
-  }
-  .description button {
-    width: 100%;
-  }
-  .button {
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 1rem;
-  }
-  .heading_span {
-    justify-content: space-between;
-    gap: 0.5rem;
-    width: 100vw;
-  }
-  .heading_span span {
-    font-size: 1rem;
-    font-weight: 700;
+    text-align:center;
   }
   .water_mark {
-    margin-left: -1.5rem;
+    margin-left: -1rem;
     margin-top: 1rem;
-    font-size: 0.9rem;
+    font-size: .9rem;
   }
-  .row_reverse {
+  .row_reverse{
     display: flex;
     flex-direction: column-reverse;
   }

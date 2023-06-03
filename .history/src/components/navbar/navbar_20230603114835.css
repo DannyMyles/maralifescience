@@ -42,7 +42,7 @@ li .phone_icon{
 
 @media (min-width: 380px) and (max-width: 980px) {
   .navbar {
-    justify-content: space-evenly;
+    justify-content: spac;
     align-items: center;
     padding: 1rem;
   }
